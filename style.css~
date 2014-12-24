@@ -1,25 +1,3 @@
-
-   /*
-
-     Rutvik Rajagopal's Personal Website
-
-    Copyright (C) 2014 Rutvik Rajagopal
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
-    */
-
 /* Initial body */
 body {
   left: 0;
@@ -43,7 +21,6 @@ background-color:#009EE0;
 }
 
 
-
 /* Basic styling */
 
 .container {
@@ -61,7 +38,7 @@ background-color:#009EE0;
    
  .header h1 {
      color:#fff;
-     padding-top:400px;
+     padding-top:250px;
      font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif;
      font-weight: 500;
     font-size: 75px;}
@@ -121,15 +98,7 @@ background-color:#009EE0;
   margin-right: 5px;
 }
 
-.menu-nav li {
- list-style-type: disc;   
-}
 
-.menu-copyright {
- color:white;
- text-align: center;
-font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif;
-}
 
 
 
