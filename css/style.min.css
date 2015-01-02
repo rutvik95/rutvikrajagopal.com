@@ -1,0 +1,139 @@
+    <!--
+
+     Rutvik Rajagopal's Personal Website
+
+    Copyright (C) 2014 Rutvik Rajagopal
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+    -->
+
+
+body{
+    left:0;
+    margin:0
+}
+
+.menu{
+    background:left top #202024;
+    left:-285px;height:100%;
+    position:fixed;
+    width:285px;
+    overflow:hidden
+}
+.menu li:hover {
+    background-color:#009EE0
+}
+#home{
+    background-image:url(../bg.jpg);
+    height:100%;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    padding-bottom:-20px;
+    vertical-align:top;
+    line-height:0
+}
+#home h1{
+    color:#fff;
+    padding-top:400px;
+    font-family:Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif;
+    font-weight:500;
+    font-size:75px
+}
+#home h2{
+    color:#fff;
+    padding-top:10px;
+    font-family:Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif;
+    font-weight:500;
+    font-size:40px}
+
+<!--Sliding Menu Panel-->
+
+.menu ul{
+    border-top:1px solid #636366;
+    list-style:none;
+    margin:0;
+    padding:0
+}
+.menu li{
+    border-bottom:1px solid #636366;
+    font-family:'Open Sans',sans-serif;
+    line-height:45px;
+    padding-bottom:3px;
+    padding-left:20px;
+    padding-top:3px
+}
+.menu a{
+    color:#fff;
+    font-size:15px;
+    text-decoration:none;
+    text-transform:uppercase
+}
+.icon-close{
+    cursor:pointer;
+    padding-left:200px;
+    padding-top:10px
+}
+.icon-menu{
+    color:#fff;
+    cursor:pointer;
+    font-family:'Open Sans',sans-serif;
+    font-size:16px;
+    padding-bottom:25px;
+    padding-left:100px;
+    padding-top:25px;
+    text-decoration:none;
+    text-transform:uppercase;
+    position:fixed
+}
+.icon-menu i{
+    margin-right:5px
+}
+.menu-nav li{
+    list-style-type:disc
+}
+
+<!--Copyright in Menu -->
+.menu-copyright{
+    color:#fff;
+    text-align:center;
+    font-family:Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif
+}
+
+<!--MY WORKS SECTION-->
+#myWorks{
+    background-image:url(../images/bg2.jpg);
+    height:100%;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover
+}
+#myWorks h1{
+    color:#fff;
+    padding-top:400px;
+    font-family:Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif;
+    font-weight:500;
+    font-size:75px;
+    vertical-align:top;
+    line-height:0
+}
+.wrapper{
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover
+}
